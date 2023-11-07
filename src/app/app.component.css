@@ -1,0 +1,28 @@
+.animated {
+    
+    font-size: 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+    align-self: auto;
+    box-shadow: 10px 10px 15px gray;
+    transition: all 0.3s ease;
+
+}
+
+.animated:hover {
+    font-weight: bolder;
+    background-color: crimson;
+    color: #ffffff;
+    
+    box-shadow: 30px 30px 30px gray;
+}
+
+.profile-picture{
+    border-radius: 50%;
+    display: block;
+    margin: 10%;
+    outline-color: #ffffff;
+    align-items: center;
+}
